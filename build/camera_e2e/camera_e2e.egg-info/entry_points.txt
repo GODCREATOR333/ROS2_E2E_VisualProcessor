@@ -1,0 +1,3 @@
+[console_scripts]
+camera_node = camera_e2e.camera_node:main
+

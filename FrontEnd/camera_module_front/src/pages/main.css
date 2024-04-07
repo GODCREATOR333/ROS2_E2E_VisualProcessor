@@ -1,0 +1,53 @@
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.container {
+    max-width: 70%;
+    align-items: center;
+    margin-inline:auto ;
+}
+
+.camera_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Add some margin for spacing */
+}
+
+.video_feed {
+    max-width: 100%; /* Ensure the video fits within its container */
+    height: auto;
+}
+
+.title h1{
+    margin-top: 8rem;
+}
+
+
+.btn {
+    display: inline-block;
+    height: 5rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+
+.disconnect_btn{
+    color: white;
+    background-color: red;
+}
+
+.connect_btn{
+    background-color: green;
+    color: white;
+}
+
