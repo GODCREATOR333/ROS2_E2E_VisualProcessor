@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/godcreator333/HARI_UBUNTU_HOME/Linux_BUILDS/ROS2_E2E_VisualProcessor/build/camera_e2e",
+        "/home/godcreator333/HARI_UBUNTU_HOME/Linux_BUILDS/ROS2_E2E_VisualProcessor/install/camera_e2e/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/godcreator333/HARI_UBUNTU_HOME/Linux_BUILDS/ROS2_E2E_VisualProcessor/build/camera_e2e",
+        "/home/godcreator333/HARI_UBUNTU_HOME/Linux_BUILDS/ROS2_E2E_VisualProcessor/install/camera_e2e/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

@@ -1,0 +1,21 @@
+[0.319s] Invoking command in '/home/godcreator333/HARI_UBUNTU_HOME/Linux_BUILDS/ROS2_E2E_VisualProcessor/build/camera_e2e': PYTHONPATH=/home/godcreator333/HARI_UBUNTU_HOME/Linux_BUILDS/ROS2_E2E_VisualProcessor/build/camera_e2e/prefix_override:/home/godcreator333/HARI_UBUNTU_HOME/Linux_BUILDS/ROS2_E2E_VisualProcessor/install/camera_e2e/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/godcreator333/HARI_UBUNTU_HOME/Linux_BUILDS/ROS2_E2E_VisualProcessor/build/camera_e2e/build --no-deps symlink_data --force
+[0.454s] running develop
+[0.455s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.455s]   warnings.warn(
+[0.540s] running egg_info
+[0.540s] writing camera_e2e.egg-info/PKG-INFO
+[0.540s] writing dependency_links to camera_e2e.egg-info/dependency_links.txt
+[0.540s] writing entry points to camera_e2e.egg-info/entry_points.txt
+[0.540s] writing requirements to camera_e2e.egg-info/requires.txt
+[0.540s] writing top-level names to camera_e2e.egg-info/top_level.txt
+[0.541s] reading manifest file 'camera_e2e.egg-info/SOURCES.txt'
+[0.542s] writing manifest file 'camera_e2e.egg-info/SOURCES.txt'
+[0.543s] running build_ext
+[0.543s] Creating /home/godcreator333/HARI_UBUNTU_HOME/Linux_BUILDS/ROS2_E2E_VisualProcessor/install/camera_e2e/lib/python3.10/site-packages/camera-e2e.egg-link (link to .)
+[0.543s] Installing camera_node script to /home/godcreator333/HARI_UBUNTU_HOME/Linux_BUILDS/ROS2_E2E_VisualProcessor/install/camera_e2e/lib/camera_e2e
+[0.543s] 
+[0.543s] Installed /home/godcreator333/HARI_UBUNTU_HOME/Linux_BUILDS/ROS2_E2E_VisualProcessor/build/camera_e2e
+[0.543s] running symlink_data
+[0.543s] symbolically linking /home/godcreator333/HARI_UBUNTU_HOME/Linux_BUILDS/ROS2_E2E_VisualProcessor/build/camera_e2e/resource/camera_e2e -> /home/godcreator333/HARI_UBUNTU_HOME/Linux_BUILDS/ROS2_E2E_VisualProcessor/install/camera_e2e/share/ament_index/resource_index/packages
+[0.544s] symbolically linking /home/godcreator333/HARI_UBUNTU_HOME/Linux_BUILDS/ROS2_E2E_VisualProcessor/build/camera_e2e/package.xml -> /home/godcreator333/HARI_UBUNTU_HOME/Linux_BUILDS/ROS2_E2E_VisualProcessor/install/camera_e2e/share/camera_e2e
+[0.556s] Invoked command in '/home/godcreator333/HARI_UBUNTU_HOME/Linux_BUILDS/ROS2_E2E_VisualProcessor/build/camera_e2e' returned '0': PYTHONPATH=/home/godcreator333/HARI_UBUNTU_HOME/Linux_BUILDS/ROS2_E2E_VisualProcessor/build/camera_e2e/prefix_override:/home/godcreator333/HARI_UBUNTU_HOME/Linux_BUILDS/ROS2_E2E_VisualProcessor/install/camera_e2e/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/godcreator333/HARI_UBUNTU_HOME/Linux_BUILDS/ROS2_E2E_VisualProcessor/build/camera_e2e/build --no-deps symlink_data --force

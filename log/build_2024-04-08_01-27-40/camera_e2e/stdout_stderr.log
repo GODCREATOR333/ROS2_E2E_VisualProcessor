@@ -1,0 +1,17 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing camera_e2e.egg-info/PKG-INFO
+writing dependency_links to camera_e2e.egg-info/dependency_links.txt
+writing entry points to camera_e2e.egg-info/entry_points.txt
+writing requirements to camera_e2e.egg-info/requires.txt
+writing top-level names to camera_e2e.egg-info/top_level.txt
+reading manifest file 'camera_e2e.egg-info/SOURCES.txt'
+writing manifest file 'camera_e2e.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/godcreator333/HARI_UBUNTU_HOME/Linux_BUILDS/ROS2_E2E_VisualProcessor/install/camera_e2e/lib/python3.10/site-packages/camera-e2e.egg-link (link to .)
+Installing camera_node script to /home/godcreator333/HARI_UBUNTU_HOME/Linux_BUILDS/ROS2_E2E_VisualProcessor/install/camera_e2e/lib/camera_e2e
+
+Installed /home/godcreator333/HARI_UBUNTU_HOME/Linux_BUILDS/ROS2_E2E_VisualProcessor/build/camera_e2e
+running symlink_data

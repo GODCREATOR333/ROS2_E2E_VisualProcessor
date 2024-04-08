@@ -49,7 +49,7 @@ function Main() {
                 // Ensure WebSocket connection is established
                 if (socketRef.current && socketRef.current.readyState === WebSocket.OPEN) {
                     // Start capturing frames from the video stream
-                    stopCapture = captureFrames(videoRef.current, 60, socketRef.current);
+                    stopCapture = captureFrames(videoRef.current, 30, socketRef.current);
                 } else {
                     console.error('WebSocket connection is not open');
                     // Handle the error, e.g., by showing a message to the user

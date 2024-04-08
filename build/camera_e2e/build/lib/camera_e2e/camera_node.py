@@ -2,6 +2,11 @@ import rclpy
 from sensor_msgs.msg import Image
 from std_msgs.msg import String
 from rclpy.node import Node
+from ultralytics import YOLO
+
+# Load a model
+model = YOLO('yolov8n.pt')  # pretrained YOLOv8n model
+
 
 class ImageSubscriber(Node):
     def __init__(self):
