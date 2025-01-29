@@ -4,7 +4,7 @@
 
 https://github.com/GODCREATOR333/ROS2_E2E_VisualProcessor/assets/66235065/0a815ef2-5370-43d8-95ed-800207aef717
 
-Object Detection Model (YOLOv8) Integration with ROS2 Node Using Websockets for Real-Time Processing (Newer version uses webRTC for minial latency [Updated version still in development mode]{https://github.com/GODCREATOR333/SensoryAI-ROS2}
+Object Detection Model (YOLOv8) Integration with ROS2 Node Using Websockets for Real-Time Processing (Newer version uses webRTC for minial latency [https://github.com/GODCREATOR333/SensoryAI-ROS2]{Updated version still in development mode}
 
 This repository aims to implement an Object Detection model based on YOLOv8 architecture within a ROS2 environment, enabling real-time detection and processing of objects. By leveraging websockets, this system facilitates seamless communication between components, ensuring efficient data transfer and analysis.
 
@@ -22,7 +22,15 @@ While various solutions exist, including Xenomai, which facilitates real-time ca
 
 # ROS2_E2E_VisualProcessor
 
-ROS2_E2E_VisualProcessor is an open-source, real-time visual processing system designed for ROS2 (Robot Operating System 2) applications and robotics projects. This processor enables robots to perceive their surroundings using camera and LiDAR systems, providing low-latency solutions through the integration of Linux’s dual kernel, Preempt_RT. It leverages the YOLOv8 object detection model running on the CUDA platform for high-performance object detection and incorporates the Extended Kalman Filter (EKF) Simultaneous Localization and Mapping (SLAM) algorithm to enhance robot navigation and mapping capabilities.
+ROS2_E2E_VisualProcessor is an open-source, real-time visual processing system designed for ROS2 (Robot Operating System 2) applications and robotics projects. This processor enables robots to perceive their surroundings using camera and LiDAR systems, providing low-latency solutions through the integration of Linux’s dual kernel, Preempt_RT. It leverages the YOLOv8 object detection model running on the CUDA platform for high-performance object detection and incorporates the Extended Kalman Filter (EKF) Simultaneous Localization and Mapping (SLAM) algorithm to enhance robot navigation and mapping capabilities. This is a hobby project for me to implement what i had learnt in theory to the real world with hands-on approach.
+
+Technologies Used
+ROS2: Built on ROS2 for robotic applications, providing the framework for real-time communication and control.
+YOLOv8: Implemented the latest YOLOv8 object detection model to achieve high-speed and accurate object detection.
+CUDA: Utilized CUDA for accelerating the YOLOv8 model, ensuring high performance on compatible hardware.
+EKF SLAM: Integrated the Extended Kalman Filter for Simultaneous Localization and Mapping to enhance robot navigation.
+Preempt_RT: Leveraged the Preempt_RT kernel patch to reduce latency, making the system suitable for real-time robotics applications.
+Websockets & WebRTC: Used Websockets (and WebRTC in the newer version) for seamless, real-time communication between components.
 
 ## Features
 
