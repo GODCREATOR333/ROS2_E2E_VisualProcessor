@@ -39,8 +39,6 @@ Special thanks to the open-source community and the developers of ROS2, YOLOv8, 
 
 ---
 
-For more information and updates, visit the [ROS2_E2E_VisualProcessor GitHub Repository](https://github.com/GODCREATOR333/ROS2_E2E_VisualProcessor). 
-
 References
 
 Ultralytics YOLOv8: [https://github.com/ultralytics]
