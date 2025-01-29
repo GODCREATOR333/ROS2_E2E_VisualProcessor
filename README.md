@@ -4,7 +4,7 @@
 
 https://github.com/GODCREATOR333/ROS2_E2E_VisualProcessor/assets/66235065/0a815ef2-5370-43d8-95ed-800207aef717
 
-Object Detection Model (YOLOv8) Integration with ROS2 Node Using Websockets for Real-Time Processing
+Object Detection Model (YOLOv8) Integration with ROS2 Node Using Websockets for Real-Time Processing (Newer version uses webRTC for minial latency [Updated version still in development mode]{https://github.com/GODCREATOR333/SensoryAI-ROS2}
 
 This repository aims to implement an Object Detection model based on YOLOv8 architecture within a ROS2 environment, enabling real-time detection and processing of objects. By leveraging websockets, this system facilitates seamless communication between components, ensuring efficient data transfer and analysis.
 
@@ -16,14 +16,9 @@ Identified Kernel Issue and Proposed Solution
 
 A critical impediment to achieving real-time performance is the scheduler problem inherent in the Ubuntu 22.04 kernel, particularly for applications requiring instantaneous responsiveness. The optimization strategy revolves around enhancing the real-time capabilities of the operating system kernel.
 
-Optimization Strategies
-
-The proposed approach involves the utilization of a microkernel in conjunction with a native Linux kernel, operating simultaneously to address real-time tasks efficiently. Real-time tasks are executed on the microkernel, which assumes control of interrupts and manages them at the lowest level, ensuring swift response times. When real-time tasks are inactive, the Linux kernel resumes operation, ensuring the seamless functioning of non-real-time processes.
-
 Consideration of Real-Time Kernel Solutions
 
 While various solutions exist, including Xenomai, which facilitates real-time capabilities by running the Cobalt kernel alongside the Linux kernel, we have opted for the Preempt_RT patch approach. This decision stems from its flexible architecture design and minimal alterations to the original system code, ensuring smoother integration and maintenance.
-After reviewing the [ROS2_E2E_VisualProcessor repository](https://github.com/GODCREATOR333/ROS2_E2E_VisualProcessor), I have identified additional details that can enhance the README file. Below is the updated version:
 
 # ROS2_E2E_VisualProcessor
 
