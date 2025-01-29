@@ -12,13 +12,14 @@ This repository aims to implement an Object Detection model based on YOLOv8 arch
 
 ROS2_E2E_VisualProcessor is an open-source, real-time visual processing system designed for ROS2 (Robot Operating System 2) applications and robotics projects. This processor enables robots to perceive their surroundings using camera and LiDAR systems, providing low-latency solutions through the integration of Linux’s dual kernel, Preempt_RT. It leverages the YOLOv8 object detection model running on the CUDA platform for high-performance object detection and incorporates the Extended Kalman Filter (EKF) Simultaneous Localization and Mapping (SLAM) algorithm to enhance robot navigation and mapping capabilities. This is a hobby project for me to implement what i had learnt in theory to the real world with hands-on approach.
 
-Technologies Used
-ROS2: Built on ROS2 for robotic applications, providing the framework for real-time communication and control.
-YOLOv8: Implemented the latest YOLOv8 object detection model to achieve high-speed and accurate object detection.
-CUDA: Utilized CUDA for accelerating the YOLOv8 model, ensuring high performance on compatible hardware.
-EKF SLAM: Integrated the Extended Kalman Filter for Simultaneous Localization and Mapping to enhance robot navigation.
-Preempt_RT: Leveraged the Preempt_RT kernel patch to reduce latency, making the system suitable for real-time robotics applications.
-Websockets & WebRTC: Used Websockets (and WebRTC in the newer version) for seamless, real-time communication between components.
+## Technologies Used
+
+- **ROS2**: Built on ROS2 for robotic applications, providing the framework for real-time communication and control.
+- **YOLOv8**: Implemented the latest YOLOv8 object detection model to achieve high-speed and accurate object detection.
+- **CUDA**: Utilized CUDA for accelerating the YOLOv8 model, ensuring high performance on compatible hardware.
+- **EKF SLAM**: Integrated the Extended Kalman Filter (EKF) for Simultaneous Localization and Mapping (SLAM) to enhance robot navigation.
+- **Preempt_RT**: Leveraged the Preempt_RT kernel patch to reduce latency, making the system suitable for real-time robotics applications.
+- **Websockets & WebRTC**: Used Websockets (and WebRTC in the newer version) for seamless, real-time communication between components.
 
 ## Features
 
@@ -27,62 +28,9 @@ Websockets & WebRTC: Used Websockets (and WebRTC in the newer version) for seaml
 - **Enhanced Navigation**: Incorporates EKF SLAM for improved robot localization and mapping.
 - **Multi-Sensor Integration**: Processes data from both camera and LiDAR systems to provide a comprehensive understanding of the environment.
 
-## Installation
-
-1. **Clone the Repository**:
-
-   ```bash
-   git clone https://github.com/GODCREATOR333/ROS2_E2E_VisualProcessor.git
-   cd ROS2_E2E_VisualProcessor
-   ```
-
-2. **Install Dependencies**:
-
-   Ensure that you have ROS2 installed on your system. For installation instructions, refer to the [ROS2 Documentation](https://docs.ros.org/en/rolling/index.html).
-
-   Install the required Python packages:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Build the Package**:
-
-   ```bash
-   colcon build
-   ```
-
-## Usage
-
-1. **Source the ROS2 Environment**:
-
-   ```bash
-   source /opt/ros/<your_ros2_distro>/setup.bash
-   source install/setup.bash
-   ```
-
-2. **Launch the Processor**:
-
-   ```bash
-   ros2 launch ros2_e2e_visualprocessor visual_processor_launch.py
-   ```
-
-   This will start the visual processor, enabling real-time object detection and SLAM capabilities.
-
-## Configuration
-
-The processor can be configured through various parameters defined in the `config` directory. Key parameters include:
-
-- **Object Detection Threshold**: Sets the confidence threshold for object detection.
-- **SLAM Parameters**: Adjust settings related to the EKF SLAM algorithm.
-- **Sensor Calibration**: Configure camera and LiDAR calibration settings.
-
-Modify these parameters as needed to suit your specific application requirements.
-
 ## Performance Optimization
 
 The current system latency is approximately 3000ms. To achieve real-time performance, our goal is to reduce this latency to below 200ms. A significant factor contributing to the current latency is a kernel-related issue. We are actively working on optimizing the system to address this and enhance overall performance.
-
 
 
 ## Acknowledgements
