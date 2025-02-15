@@ -4,7 +4,7 @@
 
 https://github.com/GODCREATOR333/ROS2_E2E_VisualProcessor/assets/66235065/0a815ef2-5370-43d8-95ed-800207aef717
 
-Object Detection Model (YOLOv8) Integration with ROS2 Node Using Websockets for Real-Time Processing (Newer version uses webRTC for minial latency [Updated version still in development mode](https://github.com/GODCREATOR333/SensoryAI-ROS2) .
+Object Detection Model (YOLOv8) Integration with ROS2 Node Using Websockets for Real-Time Processing (Newer version uses webRTC for minimal latency [Updated version still in development mode](https://github.com/GODCREATOR333/SensoryAI-ROS2) .
 
 This repository aims to implement an Object Detection model based on YOLOv8 architecture within a ROS2 environment, enabling real-time detection and processing of objects. By leveraging websockets, this system facilitates seamless communication between components, ensuring efficient data transfer and analysis.
 
